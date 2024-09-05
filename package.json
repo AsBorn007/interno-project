@@ -1,0 +1,20 @@
+{
+  "name": "project-interno",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "tailwindcss -i ./css/input.css -o ./dist/output.css"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "vite": "^5.4.3"
+  }
+}
